@@ -4,7 +4,7 @@ import './index.css';
 let columns = 0, linies = 0, index = true;
 function TicTacToe() {
   const [table, changeContent] = useState(null);
-
+  
   function gridDesign() {
     const grid = newTicTacToeGrid();
     copyGrid[linies][columns] = table; 
